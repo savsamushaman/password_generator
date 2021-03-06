@@ -27,6 +27,8 @@ def display_password():
     copy_button['text'] = 'Copy to clipboard'
     new_pass_label.pack()
     copy_button.pack()
+    
+    return
 
 
 root = Tk()
